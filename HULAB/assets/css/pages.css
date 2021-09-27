@@ -1,0 +1,64 @@
+@charset "utf-8";
+body { font: 100%/1.4 Arial, Verdana, Helvetica, sans-serif; margin: 0; padding: 0; color: #000;}
+
+ul, ol, dl { padding: 0; margin: 0;}
+
+h1, h2, h3, h4, h5, h6, p { margin-top:0; padding-right: 15px; padding-left: 15px; }
+
+.container {
+	width: 80%;
+	max-width: 1260px;/* 可能需要最大宽度，以防止此布局在大型显示器上过宽。这将使行长度更便于阅读。IE6 不遵循此声明。 */
+	min-width: 980px;/* 可能需要最小宽度，以防止此布局过窄。这将使侧面列中的行长度更便于阅读。IE6 不遵循此声明。 */
+	background-color:#FFF;
+	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐。如果将 .container 宽度设置为 100%，则不需要此设置。 */
+}
+#labname{ margin:0 0 0 0;text-align:center; font-size:36px; background-color:#F1FAEE; width:100%; height:150px; line-height:150px; color:#1D3557;}
+
+.nav{ height:46px; background-color:#457B9D;}
+
+.navone{ width:980px; margin:0 auto;}
+
+.navone ul li a{ font-size:16px; color:#F1FAEE; line-height:46px; display:block;}
+
+#nav {display:block; margin:0 auto; height:46px; clear:both;  padding:0px;}
+		
+.menu {float:left;  width:196px; height:46px; position:relative; display:block;}	
+.menu>ul {position:absolute; left:0px; margin:0px; padding:0px;  display:none; *width:2000px; z-index:1000000000;}
+.menu li { width:175px; height:34px; }
+.menu>a {color:#F1FAEE; font-weight:bolder; text-align:center; margin-left:2px; display:block; width:175px; height:46px; text-decoration:none;}
+.menu>a:hover { background-color:#F1FAEE; color:#1D3557;}
+.menu>a:visited{text-decoration:none;}
+.menu>a:active{text-decoration:none;}
+
+/* 主要内容 */
+.sub{width:100%; height:700px; background-color:#F1FAEE;}
+
+.main{ width:980px; margin:40px auto;}
+.left{ width:200px; float:left; margin:40px 0; height:500px;}
+
+.left h2, .left h3{color:#F1FAEE; height:40px; line-height:40px; background-color:#457B9D;}
+
+.left hr{ background-color:#457B9D; height:1px; margin:-10px 0 0 0;}
+
+.left li{height:48px; list-style:none; border-bottom:1px solid #457B9D; padding-left:12px;}
+
+.left li a{ font-size:16px; color:#457B9D; line-height:48px; display:block;font-weight:bold; text-decoration:none;}
+
+.left li a:hover{ color:#2C5C34;}
+
+
+.right{width:680px; float:left; margin-top:40px; margin-left:100px; height:500px;}
+
+.right h2{color:#F1FAEE; height:40px; line-height:40px; background-color:#457B9D; font-weight:normal;}
+
+.right hr{background-color:#457B9D; height:1px; margin:-10px 0 0 0;}
+
+.right_sub{ width:680px; height:500px; margin-top:10px;border:1px solid #457B9D;}
+.right_sub1{ width:680px; height:500px;}
+.right_sub ul, .right_sub1 ol{ float:left; margin:0 auto; padding:10px 0px; padding-left:50px; min-height:400px;}
+.right_sub ul li, .right_sub1 ol li{ line-height:40px; font-size:16px; color:#457B9D; text-decoration:none;}
+
+.right_sub a, .right_sub1 a{ color:#457B9D;; padding-left:4px; text-decoration:none;}
+.right_sub li, .right_sub1 li a:hover{color:#000;}
+
+
