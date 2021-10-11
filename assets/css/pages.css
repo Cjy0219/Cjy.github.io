@@ -12,7 +12,12 @@ h1, h2, h3, h4, h5, h6, p { margin-top:0; padding-right: 15px; padding-left: 15p
 	background-color:#FFF;
 	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐。如果将 .container 宽度设置为 100%，则不需要此设置。 */
 }
-#labname{ margin:0 0 0 0;text-align:center; font-size:36px; background-color:#F1FAEE; width:100%; height:150px; line-height:150px; color:#1D3557;}
+.labname{ margin:0 auto; padding-top:20px; font-size:36px; background-color:#F1FAEE; width:100%; height:150px; color:#1D3557;}
+.group{height:60px; padding-left:100px; font-family:"Comic Sans MS", cursive;}
+.college{ width:100%;height:30px; margin:40px auto 0 auto; display:block;}
+.logo{ float:right;width:30px;}
+.logo img{width:30px; height:30px;}
+.school{ float:right;font-size:18px; font-style:italic; color:#999; margin-top:5px;height:30px;}
 
 .nav{ height:46px; background-color:#457B9D;}
 
@@ -31,7 +36,7 @@ h1, h2, h3, h4, h5, h6, p { margin-top:0; padding-right: 15px; padding-left: 15p
 .menu>a:active{text-decoration:none;}
 
 /* 主要内容 */
-.sub{width:100%; height:700px; background-color:#F1FAEE;}
+.sub{width:100%; height:1000px; background-color:#F1FAEE;}
 
 .main{ width:980px; margin:40px auto;}
 .left{ width:200px; float:left; margin:40px 0; height:500px;}
@@ -47,18 +52,62 @@ h1, h2, h3, h4, h5, h6, p { margin-top:0; padding-right: 15px; padding-left: 15p
 .left li a:hover{ color:#2C5C34;}
 
 
-.right{width:680px; float:left; margin-top:40px; margin-left:100px; height:500px;}
+.right{width:680px; float:left; margin-top:40px; margin-left:100px; height:1000px;}
 
 .right h2{color:#F1FAEE; height:40px; line-height:40px; background-color:#457B9D; font-weight:normal;}
 
 .right hr{background-color:#457B9D; height:1px; margin:-10px 0 0 0;}
 
-.right_sub{ width:680px; height:500px; margin-top:10px;border:1px solid #457B9D;}
+.right_sub{ width:680px; height:800px; margin-top:10px;border:1px solid #457B9D;}
 .right_sub1{ width:680px; height:500px;}
 .right_sub ul, .right_sub1 ol{ float:left; margin:0 auto; padding:10px 0px; padding-left:50px; min-height:400px;}
 .right_sub ul li, .right_sub1 ol li{ line-height:40px; font-size:16px; color:#457B9D; text-decoration:none;}
-
 .right_sub a, .right_sub1 a{ color:#457B9D;; padding-left:4px; text-decoration:none;}
 .right_sub li, .right_sub1 li a:hover{color:#000;}
+.right_sub p { text-indent:2em; line-height:1.5em; color:#457B9D; font-size:18px;}
+.right_sub img{margin-left:90px; margin-bottom:10px;}
+.pub{width:980px; margin:20px auto 20px auto; height:600px; padding:40px; background-color:#F1FAEE;}
+.pub hr{background-color:#457B9D; height:1px; margin:-10px 0 0 0;}
+.pub ol{ float:left; margin:20px auto; padding:10px 0px; padding-left:50px; min-height:400px;}
+.sub ol li{ line-height:40px; font-size:16px; color:#457B9D; text-decoration:none;}
+
+#tools { margin-left:80px; line-height:2em;}
+#tools a{text-decoration:underline; font-size:18px;}
+#tools p{font-size:16px; text-align:justify;}
+
+.member {width:980px; height:450px; margin:40px auto; background-color:#F1FAEE; border:3px; border-style:solid; border-color:#457B9D;}
+.outline {width:980px; height:50px; border-bottom:3px solid #457B9D; font-size:22px; line-height:50px; text-align:center;}
+.content{height:350px;}
+.pic{float:left; margin-left:87px; margin-top:60px; width:231px;height:280px;}
+#hu {width:231px;height:280px;}
+.text{ display:inline-block; float:left;text-align:left; margin-top:60px; margin-left:20px;font-size:18px; height:200px; width:640px;}
+.stupart{ float:left;width:270px; height:350px; margin-top:25px; margin-left:42px; text-align:center;}
+.stupart p{ line-height:0.8em;}
+.single{width:180px; height:240px; margin-top:10px; margin-left:45px;}
+#stu1{width:180px; height:240px; border-radius:50px;}
 
 
+.wel{width:100%;height:450px; margin:40px auto; padding-top:40px;text-align:left; font-size:24px; font-style:oblique; color:#1D3557;}
+.wel hr{ background-color:#457B9D; height:1px; margin:-10px 0 0 0;}
+.search{ width:800px; margin:0 auto; font-style:normal; font-size:18px;}
+
+.foot{
+	height:180px;
+	background-color:#F1FAEE;}
+.footer {
+	float:left;
+	width:980px;
+	padding:0;
+	margin:0 auto;
+	background-color:#F1FAEE;
+	color:#1D3557;
+	font-size:14px;
+}
+.footer .contact {
+	margin:25px 0 0 150px;
+	width:450px;
+	float:left;}
+.footer .inquiries{
+	margin:25px 80px 0 0;
+	width:300px;
+	float:left;}

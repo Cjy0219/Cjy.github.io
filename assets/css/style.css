@@ -12,9 +12,14 @@ h1, h2, h3, h4, h5, h6, p { margin-top:0; padding-right: 15px; padding-left: 15p
 	background-color:#FFF;
 	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐。如果将 .container 宽度设置为 100%，则不需要此设置。 */
 }
-#labname{ margin:0 0 0 0;text-align:center; font-size:36px; background-color:#F1FAEE; width:100%; height:150px; line-height:150px; color:#1D3557;}
+.labname{ margin:0 auto; padding-top:20px; font-size:36px; background-color:#F1FAEE; width:100%; height:150px; color:#1D3557;}
+.group{height:60px; padding-left:100px; font-family:"Comic Sans MS", cursive;}
+.college{ width:100%;height:30px; margin:40px auto 0 auto; display:block;}
+.logo{ float:right;width:30px;}
+.logo img{width:30px; height:30px;}
+.school{ float:right;font-size:18px; font-style:italic; color:#999; margin-top:5px;height:30px;}
 
-.nav{ height:46px; background:#457B9D;}
+.nav{ width:100%;height:46px; background:#457B9D;}
 
 .navone{ width:980px; margin:0 auto;}
 
@@ -56,7 +61,7 @@ h1, h2, h3, h4, h5, h6, p { margin-top:0; padding-right: 15px; padding-left: 15p
 
 /* ~~ 脚注 ~~ */
 .foot{
-	height:200px;
+	height:180px;
 	background-color:#F1FAEE;}
 .footer {
 	float:left;
@@ -81,7 +86,7 @@ h1, h2, h3, h4, h5, h6, p { margin-top:0; padding-right: 15px; padding-left: 15p
 	
 img{ display: block; border:none;}
    ul,li{ list-style: none;}
-  .lubo{ width: 100%; min-width:1000px;clear: both; position: relative; height:500px; margin-top:20px;margin-bottom:20px;}
+  .lubo{ width: 100%; min-width:980px;clear: both; position: relative; height:500px; margin-top:20px;margin-bottom:20px;}
   .lubo_box{ position: relative; width: 100%; height:500px; }
   .lubo_box li{ float: left;position: absolute; top: 0; left: 0; width: 100%; height:500px; opacity: 0;filter:alpha(opacity=0);}
   .lubo_box li a{ display: block;width: 100%;  height: 100%;}
