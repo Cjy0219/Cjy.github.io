@@ -270,6 +270,7 @@ p {
 	text-decoration: none;
 }
 
+
 .right_sub li,
 .right_sub1 li a:hover {
 	color: #000;
@@ -288,12 +289,13 @@ p {
 }
 
 .pub {
-	width           : 980px;
-	margin          : 20px auto 20px auto;
+	width           : 940px;
+	margin          : 20px auto;
 	height          : 600px;
-	padding         : 40px;
+	padding         : 20px;
 	background-color: #F1FAEE;
 }
+
 .pub h2 {
 	color: #1D3557;
 }
